@@ -1,0 +1,76 @@
+:root
+{
+    --color1: #141518;
+    --color2: #ddd;
+    --color3: #585752;
+    --color4: gold;
+    --box-sh: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);;
+}
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body 
+{
+    font-family: 'Cairo',sans-serif;
+    display: flex;
+    justify-content: center;
+    background-image: url(/image/ج.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+}
+
+.menu
+{
+    width: 410px;
+
+}
+.menu ul:nth-child(1)
+{
+    margin-top: 50px;
+}
+.menu ul:nth-last-child(1)
+{
+    margin-bottom: 50px;
+}
+.menu img
+{
+    width: 390px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.menu .accont
+{
+    width: 400px;
+    margin-right: 5px;
+    text-align: center;
+    margin-top: 25px;
+    border-right: solid 1px var(--color1);
+    border-left: solid 1px var(--color1);
+}
+.menu .accont a
+{
+
+    color: #262626;
+    font-size: 20px;
+}
